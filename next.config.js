@@ -1,7 +1,7 @@
-/* const { config } = require('next/dist/build/templates/pages')
+const { config } = require('next/dist/build/templates/pages')
 
 /** @type {import('next').NextConfig} */ 
-/* const nextConfig = {
+const nextConfig = {
     experimental: {
         appDir: true,
         serverComponentsExternalPackages: ["mongoose"],
@@ -18,4 +18,4 @@
     }
 }
 
-module.exports = nextConfig */
+module.exports = nextConfig
