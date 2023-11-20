@@ -1,10 +1,10 @@
-const { config } = require('next/dist/build/templates/pages')
-
-/** @type {import('next').NextConfig} */ 
+/** 
+ * @type {import('next').NextConfig} 
+ */ 
 const nextConfig = {
     experimental: {
         appDir: true,
-        serverComponentsExternalPackages: ["mongoose"],
+        serverComponentsExternalPackages: ["mongoose"]
     },
     images: {
         domains: ['1h3.googleusercontent.com'],
@@ -12,7 +12,7 @@ const nextConfig = {
     webpack(config) {
         config.experiments = {
             ...config.experiments,
-            topLevelAwait: true,
+            topLevelAwait: true
         }
         return config;
     }
