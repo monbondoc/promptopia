@@ -1,7 +1,7 @@
-/** 
- * @type {import('next').NextConfig} 
- */ 
-const nextConfig = {
+/* *
+ * @type {import('next').NextConfig}
+ */
+/* const nextConfig = {
     experimental: {
         appDir: true,
         serverComponentsExternalPackages: ["mongoose"]
@@ -16,6 +16,6 @@ const nextConfig = {
         }
         return config;
     }
-}
-
-module.exports = nextConfig
+  }
+   
+module.exports = nextConfig */
